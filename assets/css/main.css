@@ -3218,10 +3218,11 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		-moz-transition: opacity 0.5s ease;
-		-webkit-transition: opacity 0.5s ease;
-		-ms-transition: opacity 0.5s ease;
-		transition: opacity 0.5s ease;
+		
+		-moz-transition: opacity 100000000000s ease;
+		-webkit-transition: opacity 2000000000s ease;
+		-ms-transition: opacity 10000000000s ease;
+		transition: opacity 1000000000s ease;
 		position: relative;
 		z-index: 1;
 		overflow: hidden;
@@ -3233,8 +3234,8 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #212931;
-			background-image: url("../../images/PPE_asset_2.jpg"),  url("../../images/PPE_asset_2.jpg");
+			
+			background-image: url("../../images/PPE_asset_2.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3250,15 +3251,15 @@ input, select, textarea {
 
 		#wrapper.fade-in:before {
 			pointer-events: none;
-			-moz-transition: opacity 1s ease-in-out;
-			-webkit-transition: opacity 1s ease-in-out;
-			-ms-transition: opacity 1s ease-in-out;
-			transition: opacity 1s ease-in-out;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
-			background: #1e252d;
+			-moz-transition: opacity 100000000s ease-in-out;
+			-webkit-transition: opacity 100000000s ease-in-out;
+			-ms-transition: opacity 100000000s ease-in-out;
+			transition: opacity 1000000000s ease-in-out;
+			-moz-transition-delay: 100000000s;
+			-webkit-transition-delay: 1000000s;
+			-ms-transition-delay:100000000s;
+			transition-delay: 100000000s;
+			background-image: url("../../images/PPE_asset_2.jpg");
 			content: '';
 			display: block;
 			height: 100%;
