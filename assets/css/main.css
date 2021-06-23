@@ -3235,7 +3235,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			
-			background-image: url("../../images/PPE_asset_2.jpg");
+			background-image: url("../../images/PPE-1.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3259,7 +3259,7 @@ input, select, textarea {
 			-webkit-transition-delay: 1000000s;
 			-ms-transition-delay:100000000s;
 			transition-delay: 100000000s;
-			background-image: url("../../images/PPE_asset_2.jpg");
+			background-image: url("../../images/PPE-1.jpg");
 			content: '';
 			display: block;
 			height: 100%;
