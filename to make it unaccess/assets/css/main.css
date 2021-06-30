@@ -3219,10 +3219,10 @@ input, select, textarea {
 
 	#wrapper {
 		
-		-moz-transition: opacity 100000000000s ease;
-		-webkit-transition: opacity 2000000000s ease;
-		-ms-transition: opacity 10000000000s ease;
-		transition: opacity 1000000000s ease;
+		-moz-transition: opacity 900000000000s ease;
+		-webkit-transition: opacity 9000000000s ease;
+		-ms-transition: opacity 90000000000s ease;
+		transition: opacity 9000000000s ease;
 		position: relative;
 		z-index: 1;
 		overflow: hidden;
@@ -3259,7 +3259,7 @@ input, select, textarea {
 			-webkit-transition-delay: 1000000s;
 			-ms-transition-delay:100000000s;
 			transition-delay: 100000000s;
-			background-image: url("../../images/PPE-1.jpg");
+			background-image: url("../../images/lightblue-gradient-background.jpg");
 			content: '';
 			display: block;
 			height: 100%;
@@ -3864,11 +3864,11 @@ input, select, textarea {
 			}
 
 			#main > .posts > article {
-				border-color: #eeeeee;
+				/*border-color: #eeeeee;
 				border-left-width: 2px;
 				border-style: solid;
 				border-top-width: 2px;
-				text-align: center;
+				text-align: center;*/
 			}
 
 				#main > .posts > article > :last-child {
@@ -4385,12 +4385,12 @@ input, select, textarea {
 		}
 
 	#copyright {
-		color: #ffffff;
+		
 		position: relative;
-		color: rgba(255, 255, 255, 0.25);
+		color: rgba(0, 0, 0 0.75);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 0.8rem;
+		font-size: 1rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
 		line-height: 1.5;
