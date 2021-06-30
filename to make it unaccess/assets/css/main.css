@@ -3463,7 +3463,7 @@ input, select, textarea {
 				}
 
 				#intro + #header {
-					margin-top: -14rem;
+					margin-top: -30rem;
 				}
 
 		}
@@ -3478,7 +3478,7 @@ input, select, textarea {
 				#intro h1 {
 					font-size: 3.25rem;
 					line-height: 1.1;
-					margin-bottom: 1rem;
+					margin-bottom: 20rem;
 				}
 
 				#intro p {
@@ -4387,10 +4387,10 @@ input, select, textarea {
 	#copyright {
 		
 		position: relative;
-		color: rgba(0, 0, 0 0.75);
+		color: rgba(255, 255, 255);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 1rem;
+		font-size: 2rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
 		line-height: 1.5;
