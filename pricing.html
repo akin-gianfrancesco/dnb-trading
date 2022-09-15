@@ -19,132 +19,6 @@
 		<link rel="mask-icon" href="images/favicon_package_v0/safari-pinned-tab.svg" color="#354682">
 		<meta name="msapplication-TileColor" content="#2b5797">
 		<meta name="theme-color" content="#ffffff">
-
-<script>
-	let slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none"; 
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block"; 
-  dots[slideIndex-1].className += " active";
-}
-</script>
-
-		<style>
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev {
-	margin-left: -450px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-</style>
-
 	</head>
 	<body class="is-preload">
 
@@ -170,12 +44,14 @@ function showSlides(n) {
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">Home</a></li>
+							
+							<li ><a href="index.html">Home</a></li>
 							<li><a href="Gallery.html">Gallery</a></li>
-							<li><a href="pricing.html">Pricing</a></li>
+							<li class="active"><a href="pricing.html">Pricing</a></li>
 							<li><a href="camera equipment.html">Equiptment</a></li>
 							<li><a href="contact.html">Contact</a></li>
 							
+						</ul>
 						</ul>
 						<!--
 						<ul class="icons">
@@ -191,29 +67,32 @@ function showSlides(n) {
 
 						<!-- Featured Post -->
 							<article class="post featured">
-								<header class="major" style="padding-bottom: 10em;">
+								<header class="major">
 									<!--<span class="date">April 25, 2017</span>-->
 									<h2>Janes Wedding Photography</h2>
-									<p style="font-size: 15px;">Jane started photography at a young age. While still in High School she was asked to shoot additional photography at her sister’s wedding and her passion grew from there. She undertook a degree in fine arts in Melbourne, majoring in Photography and used the skills she developed there to win several regional and national photography competitions.
-In 2018 she started her own business and hasn’t looked back. She has produced images for several high profile weddings and won major international awards. Recognised for producing high quality images with minimal photoshop retouching, she is in high demand.</p>
-					<img class="image fit" src="images/Jane_watson_banner.png" width="300%" height="300%" alt="" />		
-</header>
+									<h3>Our Rates</h3>
 
-															</article>
-											
-						
+									<img src="images/Screen Shot 2022-09-08 at 12.14.53 pm.png"	height="90%" width="90%" alt="" style="padding-bottom: 10em">
+								<!--<ul class="actions special">
+									<li><a href="#posts" class="button icon solid solo fa-arrow-down scrolly">Full Story</a></li>
+								</ul>-->
+							</article>
+
+						<!-- Posts 
 							<section class="posts" id="posts">
 								<article>
 									<header>
-									
+										<!--<span class="date">April 24, 2017</span>-
+										<h2> Kimberly-Clark Nitrile Gloves<br />
+										CE / FDA / TGA Approved PPE</h2>
 									</header>
-									<img class="image fit" src="images/jane.jpg" alt="" />
+									<img class="image fit" src="images/dnb-purple-nitrile-kimberly-clark_orig.jpg" alt="" /></a>
+									<p>Kimberly-Clark Purple Nitrile Exam Gloves provide worry-free protection. These purple nitrile gloves are powder-free and do not contain natural rubber latex (some say "latex-free"). They are composed of a highly durable nitrile polymer. The gloves are 9.5 inches long, ambidextrous, and include a beaded cuff for easy on and off. Because of the textured fingertips, your employees will have outstanding dexterity and tactile sensitivity. They've even been given the go-ahead to be used in chemotherapy.</p>
 									<!--<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
-									</ul>-->
+									</ul>--
 								</article>
-								
-								<!--<article>
+								<article>
 									<header>
 										<!--<span class="date">April 24, 2017</span>--
 										<h2>Ansell Edge 82-133 Nitrile Gloves<br />
@@ -239,11 +118,24 @@ In 2018 she started her own business and hasn’t looked back. She has produced 
 									</ul>--
 								</article>
 							</section>
-						
-						
 
-					</div>-->
-			
+						<!-- Footer 
+							<footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>-->
+
+					</div>
+
 				<!-- Footer -->
 					<footer id="footer">
 						<section class="split contact">
